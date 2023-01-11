@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
             TargetPlatform.iOS: FadeUpwardsPageTransitionsBuilder(),
             TargetPlatform.android: FadeUpwardsPageTransitionsBuilder(),
           })),
-      home: const SiteLayout(),
+      home: SiteLayout(),
       title: "Admin DashWeb",
     );
   }
